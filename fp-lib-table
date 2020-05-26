@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "hub75_poe")(type "KiCad")(uri "${KIPRJMOD}/lib/hub75_poe.pretty")(options "")(descr ""))
+)

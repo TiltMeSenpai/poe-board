@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# PE-68386NL
+#
+DEF PE-68386NL U 0 40 Y Y 1 L N
+F0 "U" -100 150 50 H V L BNN
+F1 "PE-68386NL" -100 -200 50 H V L BNN
+F2 "SOP254P864X249-6N" 0 0 50 H I L BNN
+F3 "Pulse Electronics Corporation" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -25 75 -25 -75 N
+P 2 0 0 10 25 75 25 -75 N
+A 75 50 25 899 2700 0 0 10 N 75 25 75 75
+A 75 0 25 899 2700 0 0 10 N 75 -25 75 25
+A 75 -50 25 899 2700 0 0 10 N 75 -75 75 -25
+A -75 50 25 2699 4500 0 0 10 N -75 75 -75 25
+A -75 0 25 2699 4500 0 0 10 N -75 25 -75 -25
+A -75 -50 25 2699 4500 0 0 10 N -75 -25 -75 -75
+C 75 50 13 0 0 0 N
+C -75 50 13 0 0 0 N
+P 2 0 0 10 -200 100 -75 100 N
+P 2 0 0 10 -75 100 -75 75 N
+P 2 0 0 10 -75 -75 -75 -100 N
+P 2 0 0 10 -75 -100 -200 -100 N
+P 2 0 0 10 75 -75 75 -100 N
+P 2 0 0 10 75 -100 200 -100 N
+P 2 0 0 10 75 75 75 100 N
+P 2 0 0 10 75 100 200 100 N
+X 6 6 300 100 100 L 40 40 0 0 P 
+X 4 4 300 -100 100 L 40 40 0 0 P 
+X 1 1 -300 100 100 R 40 40 0 0 P 
+X 3 3 -300 -100 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

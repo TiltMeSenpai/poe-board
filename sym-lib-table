@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "h75_poe")(type "KiCad")(uri "${KIPRJMOD}/lib/h75_poe.kicad_sym")(options "")(descr ""))
+)
