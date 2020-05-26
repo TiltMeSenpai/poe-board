@@ -9,6 +9,7 @@ a 1oz copper board, this will (in theory) induce a ~20C temp rise.
 
 ## Basic Stats
 
+| Stat | Value |
 |---|---|
 | Voltage  | 5v  |
 | Amperage | ~5A |
@@ -17,6 +18,7 @@ a 1oz copper board, this will (in theory) induce a ~20C temp rise.
 
 ## Board stats
 
+| Stat | Value |
 |---|---|
 | Layers             |            4 |
 | Min Trace Width    |        6 mil |
