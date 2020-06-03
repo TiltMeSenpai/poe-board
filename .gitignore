@@ -4,3 +4,7 @@ lib/datasheets
 *.kicad_sch-bak
 *.kicad_pcb-bak
 *.kicad-bak
+
+hub75_poe.xml
+hub75_poe_bom_.csv
+hub75_poe_bom_.csv.tmp
