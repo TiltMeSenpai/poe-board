@@ -1,6 +1,6 @@
-(kicad_sch (version 20200512) (host eeschema "5.99.0-unknown-eae0c14~101~ubuntu20.04.1")
+(kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-8bd9b26~101~ubuntu20.04.1")
 
-  (page 6 7)
+  (page 1 7)
 
   (paper "A4")
 
@@ -2464,12 +2464,12 @@
   (junction (at 248.92 83.185))
   (junction (at 248.92 93.98))
 
-  (no_connect (at 63.5 43.18))
-  (no_connect (at 189.865 120.015))
   (no_connect (at 189.865 117.475))
-  (no_connect (at 143.51 41.275))
+  (no_connect (at 189.865 120.015))
   (no_connect (at 224.79 94.615))
   (no_connect (at 104.775 41.275))
+  (no_connect (at 143.51 41.275))
+  (no_connect (at 63.5 43.18))
 
   (wire (pts (xy 40.005 40.64) (xy 40.005 45.72))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -2792,6 +2792,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 57.785 95.885 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "cdecdf54-d631-4e2c-8a49-08697ed6184e")
     (property "Reference" "#PWR0178" (id 0) (at 57.785 99.695 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2806,6 +2807,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 65.405 40.64 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "e1c0c89f-ad12-48fd-8ec6-5b0f2da62f59")
     (property "Reference" "#PWR0139" (id 0) (at 65.405 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2820,6 +2822,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 73.025 95.885 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "7dc4ce6f-81e5-49fb-8ae1-63fa5efb8e1b")
     (property "Reference" "#PWR0176" (id 0) (at 73.025 99.695 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2834,6 +2837,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 94.615 67.945 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "6adbddf7-3e55-4fe6-9ffa-3d8818242fae")
     (property "Reference" "#PWR0135" (id 0) (at 94.615 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2848,6 +2852,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 106.68 38.735 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "c705b032-f0eb-4b6b-af7c-afbafbb4d94d")
     (property "Reference" "#PWR0126" (id 0) (at 106.68 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2862,6 +2867,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 114.935 79.375 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "c78d0ffc-ff5a-4f1b-89b0-7cfe1d243ec1")
     (property "Reference" "#PWR0144" (id 0) (at 114.935 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2876,6 +2882,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 127.635 38.735 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "7acc0e32-16bb-46ac-8b1c-e77a442f9ff0")
     (property "Reference" "#PWR0130" (id 0) (at 127.635 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2890,6 +2897,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 130.175 73.025 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "fe78b4a2-3618-4c21-8872-a09a08be8fd8")
     (property "Reference" "#PWR0138" (id 0) (at 130.175 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2904,6 +2912,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 149.225 109.22 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "6158a7ca-be28-441d-8eb9-1f7734e61c32")
     (property "Reference" "#PWR0119" (id 0) (at 149.225 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2918,6 +2927,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 177.165 100.965 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "3e55de75-90d9-45cd-b0fb-8f064d035a5a")
     (property "Reference" "#PWR0117" (id 0) (at 177.165 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2932,6 +2942,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 213.36 145.415 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "28b52a0c-8460-48e1-80d8-939eeddcd21b")
     (property "Reference" "#PWR0181" (id 0) (at 213.36 149.225 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2946,6 +2957,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 219.71 89.535 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "ce6c8c8e-da50-413e-92c5-c3066f5e4ee1")
     (property "Reference" "#PWR0121" (id 0) (at 219.71 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2960,6 +2972,7 @@
   )
 
   (symbol (lib_id "power:+1V8") (at 47.625 40.64 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "329bb835-c6d2-4e6b-82d8-088fea66d248")
     (property "Reference" "#PWR0140" (id 0) (at 47.625 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2974,6 +2987,7 @@
   )
 
   (symbol (lib_id "power:+1V2") (at 88.9 38.735 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "c5f932f1-e627-4dd8-b5fc-7aeabd0ce664")
     (property "Reference" "#PWR0128" (id 0) (at 88.9 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2988,6 +3002,7 @@
   )
 
   (symbol (lib_id "power:VBUS") (at 145.415 23.495 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "f57160ed-a2fb-4dce-8d35-538db8bc3eab")
     (property "Reference" "#PWR0127" (id 0) (at 145.415 27.305 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3002,6 +3017,7 @@
   )
 
   (symbol (lib_id "power:+1V2") (at 229.87 89.535 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "00188df2-5036-4641-bb11-5b0a297d929c")
     (property "Reference" "#PWR0122" (id 0) (at 229.87 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3016,6 +3032,7 @@
   )
 
   (symbol (lib_id "power:+1V2") (at 259.715 104.775 270) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "825b7ddf-5098-42b7-b1c8-58d542025e08")
     (property "Reference" "#PWR0123" (id 0) (at 255.905 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3032,6 +3049,7 @@
   )
 
   (symbol (lib_id "power:+1V2") (at 259.715 114.935 270) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "096fe12e-6423-4380-99bd-16434bc63276")
     (property "Reference" "#PWR0118" (id 0) (at 255.905 114.935 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3048,6 +3066,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 48.895 45.72 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "75e8c71d-8b5f-466d-b7c1-1d9cce6fb1ea")
     (property "Reference" "#PWR0141" (id 0) (at 48.895 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3062,6 +3081,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 53.975 155.575 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "193c96e9-9f5c-445b-b2e2-12744f0908a2")
     (property "Reference" "#PWR0164" (id 0) (at 53.975 161.925 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3076,6 +3096,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 57.785 98.425 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "d8784689-9cc1-4295-a3d7-e5bbb0a369be")
     (property "Reference" "#PWR0177" (id 0) (at 57.785 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3090,6 +3111,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 64.135 155.575 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "430792d2-d474-45cb-ad65-17df2f3c44b1")
     (property "Reference" "#PWR0165" (id 0) (at 64.135 161.925 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3104,6 +3126,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 69.215 48.26 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "5ab7e700-215c-443e-ab9c-cf197d892dc7")
     (property "Reference" "#PWR0167" (id 0) (at 69.215 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3118,6 +3141,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 69.85 75.565 270) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "25ba39e7-5762-4d1b-97bf-7717449710d7")
     (property "Reference" "#PWR0134" (id 0) (at 63.5 75.565 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3134,6 +3158,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 74.93 155.575 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "0f85864b-1c3f-432d-9221-978340388a36")
     (property "Reference" "#PWR0163" (id 0) (at 74.93 161.925 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3148,6 +3173,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 85.725 155.575 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "112c935c-d3ac-424e-a841-92b1b7e557d6")
     (property "Reference" "#PWR0162" (id 0) (at 85.725 161.925 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3162,6 +3188,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 90.17 43.815 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "4e002d4c-81ea-4683-8720-7bfe6299cfe9")
     (property "Reference" "#PWR0129" (id 0) (at 90.17 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3176,6 +3203,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 110.49 46.355 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "51cc20ac-da5c-40fb-a38b-7f2762cdb905")
     (property "Reference" "#PWR0166" (id 0) (at 110.49 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3190,6 +3218,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 128.905 43.815 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "a2254afd-deda-4284-a187-1a6c64804386")
     (property "Reference" "#PWR0131" (id 0) (at 128.905 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3204,6 +3233,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 147.32 86.995 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "ee3e5cef-fa57-43ec-9317-8ea7ac834c10")
     (property "Reference" "#PWR0136" (id 0) (at 147.32 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3218,6 +3248,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 149.225 46.355 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "c60acf55-d65a-480e-aba7-c8c83ec56107")
     (property "Reference" "#PWR0161" (id 0) (at 149.225 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3232,6 +3263,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 177.165 125.095 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "e893ff45-c677-4e14-9dce-ef18843cae3b")
     (property "Reference" "#PWR0120" (id 0) (at 177.165 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3246,6 +3278,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 201.295 100.965 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "249242b1-83bc-4390-811a-f26c9e48a88c")
     (property "Reference" "#PWR0149" (id 0) (at 201.295 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3260,6 +3293,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 215.9 145.415 90) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "86c8c205-2326-45f8-b9fd-21a98a2c38c1")
     (property "Reference" "#PWR0159" (id 0) (at 222.25 145.415 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3276,6 +3310,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 219.71 130.175 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "47aeb9c9-5e3d-4d4e-b1a7-6db6c648f19c")
     (property "Reference" "#PWR0125" (id 0) (at 219.71 136.525 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3290,6 +3325,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 248.92 93.98 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "d212fb77-3950-477d-86eb-465f0ae23b11")
     (property "Reference" "#PWR0150" (id 0) (at 248.92 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3304,6 +3340,7 @@
   )
 
   (symbol (lib_id "Device:R_Pack04_Split") (at 53.975 144.145 0) (mirror x) (unit 4)
+    (in_bom yes) (on_board yes)
     (uuid "94c1719c-bc8b-4b90-ad3c-08955ec83728")
     (property "Reference" "R20" (id 0) (at 52.197 142.9956 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3323,6 +3360,7 @@
   )
 
   (symbol (lib_id "Device:R_Pack04_Split") (at 64.135 144.145 0) (mirror x) (unit 3)
+    (in_bom yes) (on_board yes)
     (uuid "d87f9df8-d8d8-4fd6-a4f4-d9668bfd11e1")
     (property "Reference" "R20" (id 0) (at 62.3569 142.9956 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3342,6 +3380,7 @@
   )
 
   (symbol (lib_id "Device:R_Pack04_Split") (at 74.93 144.145 0) (mirror x) (unit 2)
+    (in_bom yes) (on_board yes)
     (uuid "03e0f86a-fe7c-456e-940e-0984d3ccc5c8")
     (property "Reference" "R20" (id 0) (at 73.1519 142.9956 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3361,6 +3400,7 @@
   )
 
   (symbol (lib_name "Device:R_2") (lib_id "Device:R") (at 83.82 75.565 90) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "aba649cf-bcc9-4ee6-b0ee-bf6915a09862")
     (property "Reference" "R13" (id 0) (at 83.82 70.3388 90))
     (property "Value" "1k" (id 1) (at 83.82 72.6375 90))
@@ -3376,6 +3416,7 @@
   )
 
   (symbol (lib_id "Device:R_Pack04_Split") (at 85.725 144.145 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "682f7ce2-80bd-44bd-9a26-9ad03e59caf1")
     (property "Reference" "R20" (id 0) (at 83.9469 142.9956 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3395,6 +3436,7 @@
   )
 
   (symbol (lib_name "Device:R_1") (lib_id "Device:R") (at 94.615 71.755 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "5a3034f5-ce35-418d-be41-9c39e14ed19f")
     (property "Reference" "R14" (id 0) (at 96.3931 70.6056 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3414,6 +3456,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 130.175 76.835 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "3a920efe-40a4-4fb0-8954-b99eb27bf042")
     (property "Reference" "R15" (id 0) (at 131.9531 75.6856 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3433,6 +3476,7 @@
   )
 
   (symbol (lib_name "Device:R_4") (lib_id "Device:R") (at 153.035 112.395 90) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "54ab40fb-ab54-4f24-8eed-55f9e4eb4e58")
     (property "Reference" "R25" (id 0) (at 153.035 107.1688 90))
     (property "Value" "10k" (id 1) (at 153.035 109.4675 90))
@@ -3448,6 +3492,7 @@
   )
 
   (symbol (lib_name "Device:R_4") (lib_id "Device:R") (at 153.035 121.285 90) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "f263c9bd-4813-423d-ae65-9711cf48a4ae")
     (property "Reference" "R28" (id 0) (at 153.035 116.0588 90))
     (property "Value" "10k" (id 1) (at 153.035 118.3575 90))
@@ -3463,6 +3508,7 @@
   )
 
   (symbol (lib_name "Device:R_3") (lib_id "Device:R") (at 255.905 104.775 90) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "b57d1a71-9b7d-4992-b24f-d2e0a19d12ae")
     (property "Reference" "R26" (id 0) (at 255.905 99.5488 90))
     (property "Value" "10k" (id 1) (at 255.905 101.8475 90))
@@ -3478,6 +3524,7 @@
   )
 
   (symbol (lib_name "Device:R_3") (lib_id "Device:R") (at 255.905 114.935 90) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "4390ffd2-5318-4195-9184-9c16a834c12f")
     (property "Reference" "R27" (id 0) (at 255.905 109.7088 90))
     (property "Value" "10k" (id 1) (at 255.905 112.0075 90))
@@ -3493,6 +3540,7 @@
   )
 
   (symbol (lib_id "Device:LED") (at 53.975 151.765 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "5842fe8a-6e94-44fa-b3fe-ce9c43709a30")
     (property "Reference" "D7" (id 0) (at 47.6058 151.9555 0))
     (property "Value" "LED" (id 1) (at 49.9045 151.9555 0))
@@ -3508,6 +3556,7 @@
   )
 
   (symbol (lib_id "Device:LED") (at 64.135 151.765 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "b5d5aee9-d7e1-4a56-bd5a-987591d15311")
     (property "Reference" "D8" (id 0) (at 57.7658 151.9555 0))
     (property "Value" "LED" (id 1) (at 60.0645 151.9555 0))
@@ -3523,6 +3572,7 @@
   )
 
   (symbol (lib_id "Device:LED") (at 74.93 151.765 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "686b72ba-623c-4e9a-ad66-1a7b8bd04252")
     (property "Reference" "D9" (id 0) (at 68.5608 151.9555 0))
     (property "Value" "LED" (id 1) (at 70.8595 151.9555 0))
@@ -3538,6 +3588,7 @@
   )
 
   (symbol (lib_id "Device:LED") (at 85.725 151.765 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "6faee0c9-560e-4231-9a0b-55ffbb17855e")
     (property "Reference" "D10" (id 0) (at 79.3558 151.9555 0))
     (property "Value" "LED" (id 1) (at 81.6545 151.9555 0))
@@ -3553,6 +3604,7 @@
   )
 
   (symbol (lib_id "Device:LED") (at 143.51 86.995 180) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "fb2b86df-8c3a-41ac-b35d-5d6f30059ae9")
     (property "Reference" "D6" (id 0) (at 143.7005 80.6258 0))
     (property "Value" "LED" (id 1) (at 143.7005 82.9245 0))
@@ -3568,6 +3620,7 @@
   )
 
   (symbol (lib_id "Switch:SW_SPST") (at 74.93 86.995 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "50034c5b-de7e-42b7-b791-5e99f69b3cdc")
     (property "Reference" "SW1" (id 0) (at 74.93 81.1338 0))
     (property "Value" "434133025816" (id 1) (at 74.93 83.4325 0))
@@ -3583,6 +3636,7 @@
   )
 
   (symbol (lib_name "Device:C_3") (lib_id "Device:C") (at 43.815 40.64 90) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "e46de7dd-c809-41ee-ad07-d46f0bd57ee9")
     (property "Reference" "C19" (id 0) (at 43.815 34.2708 90))
     (property "Value" "10uf" (id 1) (at 43.815 36.5695 90))
@@ -3598,6 +3652,7 @@
   )
 
   (symbol (lib_name "Device:C_2") (lib_id "Device:C") (at 69.215 44.45 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "acf12481-12ad-41ec-9037-65cc3322bf77")
     (property "Reference" "C25" (id 0) (at 72.1361 43.3006 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3617,6 +3672,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 76.2 75.565 90) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "112afe89-0156-4457-8549-82969613201e")
     (property "Reference" "C18" (id 0) (at 76.2 69.1958 90))
     (property "Value" "10uf" (id 1) (at 76.2 71.4945 90))
@@ -3632,6 +3688,7 @@
   )
 
   (symbol (lib_name "Device:C_4") (lib_id "Device:C") (at 85.09 38.735 90) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "68acbef6-7595-4f99-923a-5aa1c752151f")
     (property "Reference" "C15" (id 0) (at 85.09 32.3658 90))
     (property "Value" "10uf" (id 1) (at 85.09 34.6645 90))
@@ -3647,6 +3704,7 @@
   )
 
   (symbol (lib_name "Device:C_2") (lib_id "Device:C") (at 110.49 42.545 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "b406008b-5756-4d72-a313-2e08756c4207")
     (property "Reference" "C24" (id 0) (at 113.4111 41.3956 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3666,6 +3724,7 @@
   )
 
   (symbol (lib_name "Device:C_1") (lib_id "Device:C") (at 123.825 38.735 90) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "370a0d7c-65ee-4894-b3d5-ec44e69458e1")
     (property "Reference" "C14" (id 0) (at 123.825 32.3658 90))
     (property "Value" "10uf" (id 1) (at 123.825 34.6645 90))
@@ -3681,6 +3740,7 @@
   )
 
   (symbol (lib_name "Device:C_2") (lib_id "Device:C") (at 149.225 42.545 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "43ccea92-6539-4ea5-9ecb-01cd33775e84")
     (property "Reference" "C23" (id 0) (at 152.1461 41.3956 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3700,6 +3760,7 @@
   )
 
   (symbol (lib_name "Device:C_9") (lib_id "Device:C") (at 186.69 100.965 90) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "2eae118e-d312-465e-a85f-15ccdd6f232b")
     (property "Reference" "C40" (id 0) (at 186.69 94.5958 90))
     (property "Value" "C" (id 1) (at 186.69 96.8945 90))
@@ -3712,6 +3773,7 @@
   )
 
   (symbol (lib_name "Device:C_8") (lib_id "Device:C") (at 194.945 97.155 180) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "07e070bd-4450-44f6-b7e0-b1b4d286e1ad")
     (property "Reference" "C27" (id 0) (at 197.8661 96.0056 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3731,6 +3793,7 @@
   )
 
   (symbol (lib_name "Device:C_8") (lib_id "Device:C") (at 205.105 97.155 180) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "8a749cb6-b61f-429c-a292-139bd5bb4e76")
     (property "Reference" "C28" (id 0) (at 208.0261 96.0056 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3750,6 +3813,7 @@
   )
 
   (symbol (lib_name "Device:C_5") (lib_id "Device:C") (at 243.84 108.585 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "d21e8035-2ddd-486d-8f6e-d891e69aa529")
     (property "Reference" "C16" (id 0) (at 246.7611 107.4356 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3769,6 +3833,7 @@
   )
 
   (symbol (lib_name "Device:C_6") (lib_id "Device:C") (at 243.84 118.745 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "0817ce45-2ff3-402f-8c3b-310508be8c79")
     (property "Reference" "C17" (id 0) (at 246.7611 117.5956 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3788,6 +3853,7 @@
   )
 
   (symbol (lib_name "Device:C_7") (lib_id "Device:C") (at 245.11 62.23 90) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "d42b25da-bb4e-4a65-806d-b1c739c4e1e7")
     (property "Reference" "C32" (id 0) (at 245.11 55.8608 90))
     (property "Value" "10uf" (id 1) (at 245.11 58.1595 90))
@@ -3803,6 +3869,7 @@
   )
 
   (symbol (lib_name "Device:C_7") (lib_id "Device:C") (at 245.11 73.025 90) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "1be457d5-81d4-48d4-b948-2f0300ba87a4")
     (property "Reference" "C33" (id 0) (at 245.11 66.6558 90))
     (property "Value" "10uf" (id 1) (at 245.11 68.9545 90))
@@ -3818,6 +3885,7 @@
   )
 
   (symbol (lib_name "Device:C_7") (lib_id "Device:C") (at 245.11 83.185 90) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "0d0db303-ce8b-4fe6-962d-5b6c304288ff")
     (property "Reference" "C31" (id 0) (at 245.11 76.8158 90))
     (property "Value" "10uf" (id 1) (at 245.11 79.1145 90))
@@ -3833,6 +3901,7 @@
   )
 
   (symbol (lib_name "Device:C_7") (lib_id "Device:C") (at 245.11 93.98 90) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "5f233b0d-6ca2-4f66-aeb7-1e5b1aa5445f")
     (property "Reference" "C29" (id 0) (at 245.11 87.6108 90))
     (property "Value" "10uf" (id 1) (at 245.11 89.9095 90))
@@ -3848,6 +3917,7 @@
   )
 
   (symbol (lib_id "Device:Jumper") (at 145.415 31.115 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "a3294789-69bc-4e12-b79a-62a8710ae6da")
     (property "Reference" "JP1" (id 0) (at 148.5647 29.9656 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3867,6 +3937,7 @@
   )
 
   (symbol (lib_id "h75_poe:OSC_100M") (at 65.405 93.98 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "babfd8ad-a411-4ae1-82eb-e97807c824f3")
     (property "Reference" "U12" (id 0) (at 65.405 89.8208 0))
     (property "Value" "ASEMB-100.000MHZ-LY-T" (id 1) (at 65.405 92.1195 0))
@@ -3882,6 +3953,7 @@
   )
 
   (symbol (lib_id "h75_poe:TPS74618") (at 56.515 38.735 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "588cb7d9-976f-458f-9034-e6cc09f0cb79")
     (property "Reference" "U9" (id 0) (at 56.1975 35.0582 0))
     (property "Value" "TPS74618" (id 1) (at 56.1975 37.3569 0))
@@ -3897,6 +3969,7 @@
   )
 
   (symbol (lib_id "h75_poe:TPS74612") (at 97.79 36.83 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "8d7833f9-dc75-4fe8-957b-efdec00223ba")
     (property "Reference" "U5" (id 0) (at 97.4725 33.1532 0))
     (property "Value" "TPS74612" (id 1) (at 97.4725 35.4519 0))
@@ -3912,6 +3985,7 @@
   )
 
   (symbol (lib_id "h75_poe:TPS74633") (at 136.525 36.83 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "15df0437-ca0d-4b51-a188-84a0312a2f67")
     (property "Reference" "U4" (id 0) (at 136.2075 33.1532 0))
     (property "Value" "TPS74633" (id 1) (at 136.2075 35.4519 0))
@@ -3927,6 +4001,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x09") (at 205.74 150.495 270) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "dd669636-aac6-4360-9336-60a836a02d91")
     (property "Reference" "J4" (id 0) (at 205.6892 153.6764 90))
     (property "Value" "502382-0970" (id 1) (at 205.6892 155.9751 90))
@@ -3939,6 +4014,7 @@
   )
 
   (symbol (lib_id "Memory_Flash:W25Q32JVSS") (at 177.165 114.935 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "27eb9ab4-28cb-422b-bc68-84ecf7f5494d")
     (property "Reference" "U6" (id 0) (at 169.545 102.8508 0))
     (property "Value" "W25Q32JVSS" (id 1) (at 169.545 105.1495 0))
@@ -3954,6 +4030,7 @@
   )
 
   (symbol (lib_id "FPGA_Lattice:ICE40HX8K-BG121") (at 227.33 112.395 0) (unit 5)
+    (in_bom yes) (on_board yes)
     (uuid "7ac6ee49-9feb-48ff-aba0-93db71fe7eb7")
     (property "Reference" "U2" (id 0) (at 232.41 127.8954 0))
     (property "Value" "ICE40HX8K-BG121" (id 1) (at 232.41 130.1941 0))
@@ -3969,6 +4046,7 @@
   )
 
   (symbol (lib_name "FPGA_Lattice:ICE40HX8K-BG121_1") (lib_id "FPGA_Lattice:ICE40HX8K-BG121") (at 114.935 112.395 0) (unit 3)
+    (in_bom yes) (on_board yes)
     (uuid "e0c73973-46bc-47fd-b481-8d314dbcd2bd")
     (property "Reference" "U2" (id 0) (at 114.935 146.0564 0))
     (property "Value" "ICE40HX8K-BG121" (id 1) (at 114.935 148.3551 0))

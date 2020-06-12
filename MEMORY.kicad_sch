@@ -1,6 +1,6 @@
-(kicad_sch (version 20200512) (host eeschema "5.99.0-unknown-eae0c14~101~ubuntu20.04.1")
+(kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-8bd9b26~101~ubuntu20.04.1")
 
-  (page 5 7)
+  (page 1 7)
 
   (paper "A4")
 
@@ -887,11 +887,11 @@
   (junction (at 132.08 99.06))
   (junction (at 170.815 99.06))
 
-  (no_connect (at 117.475 80.645))
   (no_connect (at 86.995 93.345))
-  (no_connect (at 117.475 83.185))
-  (no_connect (at 86.995 88.265))
   (no_connect (at 86.995 90.805))
+  (no_connect (at 117.475 80.645))
+  (no_connect (at 86.995 88.265))
+  (no_connect (at 117.475 83.185))
 
   (bus_entry (at 69.85 65.405) (size 2.54 -2.54))
   (bus_entry (at 69.85 67.945) (size 2.54 -2.54))
@@ -1179,6 +1179,7 @@
   )
 
   (symbol (lib_id "power:+1V8") (at 118.745 57.785 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "32e88376-f64c-40ca-b53a-4d392b8725f7")
     (property "Reference" "#PWR0142" (id 0) (at 118.745 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1193,6 +1194,7 @@
   )
 
   (symbol (lib_id "power:+1V8") (at 208.915 62.23 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "6afdc55c-6c12-4fe1-a11a-475c0a9a5d78")
     (property "Reference" "#PWR0146" (id 0) (at 208.915 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1207,6 +1209,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 118.745 93.345 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "6ece5932-f481-43b8-bdad-89ba575bedfd")
     (property "Reference" "#PWR0143" (id 0) (at 118.745 99.695 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1221,6 +1224,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 138.43 65.405 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "a82b3605-e10e-41a8-958b-37d760c6a82d")
     (property "Reference" "#PWR0148" (id 0) (at 138.43 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1237,6 +1241,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 219.075 69.85 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "f3673dfa-c7f8-4726-914c-86466e2ed278")
     (property "Reference" "#PWR0145" (id 0) (at 219.075 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1251,6 +1256,7 @@
   )
 
   (symbol (lib_name "Device:C_2") (lib_id "Device:C") (at 128.905 61.595 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "931ac8b1-499f-4e21-9fdd-dcbe102c01ba")
     (property "Reference" "C22" (id 0) (at 135.2742 61.595 90))
     (property "Value" "10uf" (id 1) (at 132.9755 61.595 90))
@@ -1266,6 +1272,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 138.43 61.595 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "d60cb7b7-0da5-430b-ba3f-c0d565bce2fb")
     (property "Reference" "C21" (id 0) (at 144.7992 61.595 90))
     (property "Value" "10uf" (id 1) (at 142.5005 61.595 90))
@@ -1281,6 +1288,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 149.225 61.595 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "21acf942-9a94-43db-a6e7-8e6d94ca8b16")
     (property "Reference" "C39" (id 0) (at 155.5942 61.595 90))
     (property "Value" "10uf" (id 1) (at 153.2955 61.595 90))
@@ -1296,6 +1304,7 @@
   )
 
   (symbol (lib_name "Device:C_1") (lib_id "Device:C") (at 219.075 66.04 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "5ac340d1-3be1-412f-86cb-5ff5c91376a0")
     (property "Reference" "C26" (id 0) (at 221.9961 64.8906 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1315,6 +1324,7 @@
   )
 
   (symbol (lib_id "h75_poe:S27KL0641") (at 102.235 75.565 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "b00c6eff-4481-4ca1-8741-9a6a46635489")
     (property "Reference" "U7" (id 0) (at 102.235 52.2032 0))
     (property "Value" "S27KL0641" (id 1) (at 102.235 54.5019 0))
@@ -1330,6 +1340,7 @@
   )
 
   (symbol (lib_id "FPGA_Lattice:ICE40HX8K-BG121") (at 202.565 97.79 0) (unit 2)
+    (in_bom yes) (on_board yes)
     (uuid "73d6c9e7-5c14-4c04-9012-f6f01b5d7615")
     (property "Reference" "U2" (id 0) (at 212.2171 95.2436 0)
       (effects (font (size 1.27 1.27)) (justify left))

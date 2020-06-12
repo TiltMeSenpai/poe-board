@@ -1,4 +1,4 @@
-update=Wed 03 Jun 2020 04:05:27 PM PDT
+update=Thu 11 Jun 2020 10:09:30 PM PDT
 version=1
 last_client=kicad
 [general]
@@ -13,8 +13,6 @@ version=1
 LibDir=
 [eeschema/libraries]
 [PcbFrame]
-version=1
-[LibeditFrame]
 version=1
 [schematic_editor]
 version=1
@@ -42,8 +40,10 @@ ERC_CheckBusToNetConflicts=1
 version=1
 [SchematicFrame]
 version=1
+[LibeditFrame]
+version=1
 [sheetnames]
-1=762203a1-77ee-44b1-a27d-4f947154c987:
+1=4f04189e-7436-41e1-aa61-2efffbfb66e9:
 2=15a5379a-5304-414f-b1d1-a2406f05f4a7:RJ45
 3=6872f0e8-5ba1-40a3-8fcf-1b3cef156aa3:MII
 4=4552da80-5df1-435b-9eb5-801d356cd933:POE
@@ -360,7 +360,7 @@ dPairViaGap=0.25
 Name=HVDC
 Clearance=0.127
 TrackWidth=0.254
-ViaDiameter=0.4572
+ViaDiameter=0.508
 ViaDrill=0.254
 uViaDiameter=0.3
 uViaDrill=0.1
