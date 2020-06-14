@@ -1,6 +1,6 @@
-(kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-8bd9b26~101~ubuntu20.04.1")
+(kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-60915fb~101~ubuntu20.04.1")
 
-  (page 2 7)
+  (page 1 7)
 
   (paper "A4")
 
@@ -1359,11 +1359,11 @@
   (junction (at 177.8 137.795))
   (junction (at 180.975 137.795))
 
-  (no_connect (at 109.22 103.505))
   (no_connect (at 109.22 100.965))
-  (no_connect (at 109.22 108.585))
-  (no_connect (at 143.51 70.485))
   (no_connect (at 109.22 95.885))
+  (no_connect (at 109.22 103.505))
+  (no_connect (at 143.51 70.485))
+  (no_connect (at 109.22 108.585))
 
   (bus_entry (at 214.63 63.5) (size 2.54 -2.54))
   (bus_entry (at 214.63 66.04) (size 2.54 -2.54))

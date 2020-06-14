@@ -1,4 +1,4 @@
-(kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-8bd9b26~101~ubuntu20.04.1")
+(kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-60915fb~101~ubuntu20.04.1")
 
   (page 1 7)
 
@@ -366,6 +366,9 @@
     )
     (path "/4552da80-5df1-435b-9eb5-801d356cd933/c728118c-3308-451c-8189-581c7ee0c0f0"
       (reference "#PWR0183") (unit 1)
+    )
+    (path "/4552da80-5df1-435b-9eb5-801d356cd933/c23e66b8-a252-40d8-bb29-2c4b4a8f5ca6"
+      (reference "#SYM1") (unit 1)
     )
     (path "/4552da80-5df1-435b-9eb5-801d356cd933/9f897163-e815-46fc-a54f-14d10452d057"
       (reference "C6") (unit 1)
