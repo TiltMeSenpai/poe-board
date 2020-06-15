@@ -1,4 +1,4 @@
-(kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-60915fb~101~ubuntu20.04.1")
+(kicad_sch (version 20200608) (host eeschema "5.99.0-unknown-e164269~101~ubuntu20.04.1")
 
   (page 1 7)
 
@@ -887,11 +887,11 @@
   (junction (at 132.08 99.06))
   (junction (at 170.815 99.06))
 
-  (no_connect (at 86.995 88.265))
-  (no_connect (at 117.475 80.645))
   (no_connect (at 86.995 93.345))
-  (no_connect (at 86.995 90.805))
+  (no_connect (at 117.475 80.645))
   (no_connect (at 117.475 83.185))
+  (no_connect (at 86.995 90.805))
+  (no_connect (at 86.995 88.265))
 
   (bus_entry (at 69.85 65.405) (size 2.54 -2.54))
   (bus_entry (at 69.85 67.945) (size 2.54 -2.54))
@@ -1071,13 +1071,10 @@
   (bus (pts (xy 170.815 78.105) (xy 170.815 85.09))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 170.815 85.09) (xy 170.815 87.63))
+  (bus (pts (xy 170.815 85.09) (xy 170.815 92.71))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 170.815 87.63) (xy 170.815 95.25))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (bus (pts (xy 170.815 95.25) (xy 170.815 99.06))
+  (bus (pts (xy 170.815 92.71) (xy 170.815 99.06))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (bus (pts (xy 170.815 99.06) (xy 170.815 102.87))
