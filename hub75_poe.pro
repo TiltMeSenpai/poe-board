@@ -1,4 +1,4 @@
-update=Sun 14 Jun 2020 08:57:16 PM PDT
+update=Thu 25 Jun 2020 02:42:04 PM PDT
 version=1
 last_client=kicad
 [general]
@@ -13,6 +13,12 @@ version=1
 LibDir=
 [eeschema/libraries]
 [PcbFrame]
+version=1
+[LibeditFrame]
+version=1
+[ModEditFrame]
+version=1
+[SchematicFrame]
 version=1
 [schematic_editor]
 version=1
@@ -36,14 +42,8 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
-[LibeditFrame]
-version=1
-[ModEditFrame]
-version=1
-[SchematicFrame]
-version=1
 [sheetnames]
-1=43c68670-024b-4b5d-83aa-938a6f5b0431:
+1=18e06232-3105-4f29-89d3-46a5c5273d02:
 2=15a5379a-5304-414f-b1d1-a2406f05f4a7:RJ45
 3=6872f0e8-5ba1-40a3-8fcf-1b3cef156aa3:MII
 4=4552da80-5df1-435b-9eb5-801d356cd933:POE
@@ -174,7 +174,7 @@ OthersTextItalic=0
 OthersTextUpright=0
 DimensionUnits=0
 DimensionPrecision=1
-SolderMaskClearance=0.05
+SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=0
@@ -367,3 +367,5 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[text_variables]
+1=GIT_REV:test
