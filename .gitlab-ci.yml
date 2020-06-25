@@ -1,0 +1,10 @@
+image: registry.gitlab.com/tiltmesenpai/kicad-nightly-runner/kicad-nightly-runner:20202506
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+build_gerbers:
+  script: "./do_plot.sh"
+  artifacts:
+    paths:
+    - plot
