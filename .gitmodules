@@ -1,3 +1,3 @@
 [submodule "kicadScripts"]
 	path = kicadScripts
-	url = git@github.com:gregdavill/kicadScripts.git
+	url = https://github.com/TiltMeSenpai/kicadScripts.git
