@@ -1,4 +1,4 @@
-update=Thu 25 Jun 2020 02:42:04 PM PDT
+update=Fri 26 Jun 2020 12:21:45 PM PDT
 version=1
 last_client=kicad
 [general]
@@ -15,8 +15,6 @@ LibDir=
 [PcbFrame]
 version=1
 [LibeditFrame]
-version=1
-[ModEditFrame]
 version=1
 [SchematicFrame]
 version=1
@@ -42,14 +40,8 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
-[sheetnames]
-1=18e06232-3105-4f29-89d3-46a5c5273d02:
-2=15a5379a-5304-414f-b1d1-a2406f05f4a7:RJ45
-3=6872f0e8-5ba1-40a3-8fcf-1b3cef156aa3:MII
-4=4552da80-5df1-435b-9eb5-801d356cd933:POE
-5=e88c8a4a-9a9f-4489-82f2-72084410741f:MEMORY
-6=1cd55ad1-6412-44cc-9669-b4acc6e6aaec:CONFIG
-7=b01931b2-a9a4-4cf3-bdbe-f04f62a49e22:HUB75
+[ModEditFrame]
+version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -368,4 +360,12 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [text_variables]
-1=GIT_REV:test
+1=GIT_REV:DIRTY
+[sheetnames]
+1=85adda40-44b8-4bc4-8d18-df125e394f16:
+2=15a5379a-5304-414f-b1d1-a2406f05f4a7:RJ45
+3=6872f0e8-5ba1-40a3-8fcf-1b3cef156aa3:MII
+4=4552da80-5df1-435b-9eb5-801d356cd933:POE
+5=e88c8a4a-9a9f-4489-82f2-72084410741f:MEMORY
+6=1cd55ad1-6412-44cc-9669-b4acc6e6aaec:CONFIG
+7=b01931b2-a9a4-4cf3-bdbe-f04f62a49e22:HUB75

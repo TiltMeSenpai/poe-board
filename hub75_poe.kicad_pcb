@@ -1,4 +1,4 @@
-(kicad_pcb (version 20200614) (host pcbnew "5.99.0-unknown-b48a627~101~ubuntu20.04.1")
+(kicad_pcb (version 20200614) (host pcbnew "5.99.0-unknown-19b7755~101~ubuntu20.04.1")
 
   (general
     (thickness 1.6)
@@ -562,7 +562,7 @@
     (add_net "/SPARE_B")
   )
 
-  (module "Package_TO_SOT_SMD:SOT-89-3" (layer "F.Cu") (tedit 5A02FF57) (tstamp 951fa6ce-76b9-457e-b762-824b9c345b98)
+  (module "hub75_poe:SOT-89-3" (layer "F.Cu") (tedit 5EF64AA5) (tstamp 951fa6ce-76b9-457e-b762-824b9c345b98)
     (at 147.066 80.01)
     (descr "SOT-89-3")
     (tags "SOT-89-3")
@@ -590,18 +590,18 @@
     (fp_text user "${REFERENCE}" (at 0.38 0 90) (layer "F.Fab")
       (effects (font (size 0.6 0.6) (thickness 0.09)))
     )
-    (pad "2" smd trapezoid (at -0.0762 0 90) (size 1.5 1) (rect_delta 0 0.7 ) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 14 "GND") (pinfunction "A") (tstamp f192a226-78ce-4870-9393-3dbe9c3f15f7))
+    (pad "2" smd trapezoid (at -0.0762 0 270) (size 1.5 1) (rect_delta 0 0.7 ) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 14 "GND") (pinfunction "A") (tstamp c4adabdd-3bce-4826-b866-8f13014b72cc))
     (pad "2" smd rect (at 1.3335 0 270) (size 2.2 1.84) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 14 "GND") (pinfunction "A") (tstamp 222df6ae-59d8-4bf2-836b-acdd04890bfc))
+      (net 14 "GND") (pinfunction "A") (tstamp 68895b26-14c2-4233-a491-20cdd76396a0))
     (pad "3" smd rect (at -1.48 1.5 270) (size 1 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 203 "Net-(C41-Pad1)") (pinfunction "K") (tstamp 51a40b3c-3518-425b-b260-2353539f0523))
+      (net 203 "Net-(C41-Pad1)") (pinfunction "K") (tstamp 58b4a0fe-0ad6-4727-95ef-84de372dbbb3))
     (pad "2" smd rect (at -1.3335 0 270) (size 1 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 14 "GND") (pinfunction "A") (tstamp bd10b411-29a5-468a-af2d-55bdfb57c8b9))
+      (net 14 "GND") (pinfunction "A") (tstamp ed5c1a16-fa0f-47d7-beeb-7ee0f5a2e572))
     (pad "1" smd rect (at -1.48 -1.5 270) (size 1 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 205 "Net-(C41-Pad2)") (pinfunction "REF") (tstamp d5646cdb-6040-4fd0-99c3-fb56d2f9e68f))
-    (pad "2" smd trapezoid (at 2.667 0 270) (size 1.6 0.85) (rect_delta 0 0.6 ) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 14 "GND") (pinfunction "A") (tstamp 1d56e355-d574-4b05-9500-e6f7abb92a18))
+      (net 205 "Net-(C41-Pad2)") (pinfunction "REF") (tstamp beeb1b3e-0e48-4e9e-893d-d814a03ffde5))
+    (pad "2" smd trapezoid (at 2.667 0 90) (size 1.6 0.85) (rect_delta 0 0.6 ) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 14 "GND") (pinfunction "A") (tstamp 4adb0f27-e31d-43bc-820d-c088e87d56dc))
     (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-89-3.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -7724,7 +7724,9 @@
     )
     (filled_polygon
       (pts
-        (xy 146.305001 78.995) (xy 143.509001 78.995) (xy 143.509001 77.39519) (xy 144.451191 76.453) (xy 146.305001 76.453)
+        (xy 146.305001 78.733484) (xy 146.300367 78.738118) (xy 146.258509 78.800764) (xy 146.249011 78.823694) (xy 146.235526 78.891489)
+        (xy 146.234312 78.90381) (xy 146.234312 78.995) (xy 143.509001 78.995) (xy 143.509001 77.39519) (xy 144.451191 76.453)
+        (xy 146.305001 76.453)
       )
     )
   )
@@ -7754,7 +7756,9 @@
     )
     (filled_polygon
       (pts
-        (xy 146.305001 84.583) (xy 144.271 84.583) (xy 144.271001 80.898) (xy 146.305001 80.898)
+        (xy 146.234312 81.113434) (xy 146.234686 81.120292) (xy 146.239173 81.161297) (xy 146.24416 81.179917) (xy 146.27338 81.246347)
+        (xy 146.287613 81.266679) (xy 146.305001 81.283329) (xy 146.305001 84.583) (xy 144.271 84.583) (xy 144.271001 80.898)
+        (xy 146.234312 80.898)
       )
     )
   )
