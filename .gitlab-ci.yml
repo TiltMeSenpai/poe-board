@@ -1,10 +1,13 @@
-image: registry.gitlab.com/tiltmesenpai/kicad-nightly-runner/kicad-nightly-runner:20202506
+image: registry.gitlab.com/tiltmesenpai/kicad-nightly-runner/kicad-nightly-runner:20202606
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
+  PCB_PATH: hub75_poe.kicad_pcb
 
 build_gerbers:
-  script: "./do_plot.sh"
+  script: 
+  - export PCB_VERSION=$(git describe --tags)
+  - /usr/bin/plot_gerbers.py
   artifacts:
     paths:
     - plot
