@@ -5,9 +5,7 @@ variables:
 
 build_gerbers:
   script: 
-  - export PCB_VERSION=$(git describe --tags)
-  - export PCB_PATH=hub75_poe.kicad_pcb
-  - /usr/bin/plot_gerbers.py
+  - /usr/bin/plot_gerbers.py hub75_poe.kicad_pcb $(git describe --tags)
   artifacts:
     paths:
     - plot
