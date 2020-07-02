@@ -1,4 +1,4 @@
-image: registry.gitlab.com/tiltmesenpai/kicad-nightly-runner/kicad-nightly-runner:20202606
+image: registry.gitlab.com/tiltmesenpai/kicad-nightly-runner/kicad-nightly-runner:latest
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
