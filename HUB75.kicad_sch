@@ -1,4 +1,4 @@
-(kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-19b7755~101~ubuntu20.04.1")
+(kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-af8f05d~101~ubuntu20.04.1")
 
   (page 1 7)
 
@@ -1514,10 +1514,10 @@
   (bus (pts (xy 95.25 129.54) (xy 102.87 129.54))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 102.87 129.54) (xy 111.125 129.54))
+  (bus (pts (xy 102.87 129.54) (xy 106.68 129.54))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 111.125 129.54) (xy 121.285 129.54))
+  (bus (pts (xy 106.68 129.54) (xy 121.285 129.54))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (bus (pts (xy 121.285 79.375) (xy 121.285 83.82))

@@ -1,4 +1,4 @@
-(kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-19b7755~101~ubuntu20.04.1")
+(kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-af8f05d~101~ubuntu20.04.1")
 
   (page 1 7)
 
@@ -349,9 +349,6 @@
     (path "/4552da80-5df1-435b-9eb5-801d356cd933/1fa17acc-caa9-49d4-9561-cad54b84c06f"
       (reference "#PWR0112") (unit 1)
     )
-    (path "/4552da80-5df1-435b-9eb5-801d356cd933/deccd6cb-cdf9-44ef-8966-252f8497b653"
-      (reference "#PWR0113") (unit 1)
-    )
     (path "/4552da80-5df1-435b-9eb5-801d356cd933/2b2b7514-a8e6-4081-b9f9-d382de253865"
       (reference "#PWR0114") (unit 1)
     )
@@ -370,11 +367,8 @@
     (path "/4552da80-5df1-435b-9eb5-801d356cd933/9f897163-e815-46fc-a54f-14d10452d057"
       (reference "C6") (unit 1)
     )
-    (path "/4552da80-5df1-435b-9eb5-801d356cd933/6120163c-27e6-4f09-80c5-36ccd3c5cef3"
+    (path "/4552da80-5df1-435b-9eb5-801d356cd933/c68f5b68-15a7-4bca-ae43-8b3de6c3a2fc"
       (reference "C7") (unit 1)
-    )
-    (path "/4552da80-5df1-435b-9eb5-801d356cd933/d56405c7-5bd2-4373-9116-bd8a8ba7816f"
-      (reference "C8") (unit 1)
     )
     (path "/4552da80-5df1-435b-9eb5-801d356cd933/d70e5e39-b986-477c-94d3-689b0a59860f"
       (reference "C9") (unit 1)
@@ -423,9 +417,6 @@
     )
     (path "/4552da80-5df1-435b-9eb5-801d356cd933/bd15a259-e9b4-4c27-9ad7-d52e3918bf49"
       (reference "L1") (unit 1)
-    )
-    (path "/4552da80-5df1-435b-9eb5-801d356cd933/bb132592-6f19-49bb-96ff-18d99f13055f"
-      (reference "L2") (unit 1)
     )
     (path "/4552da80-5df1-435b-9eb5-801d356cd933/a1bf3c84-b898-4543-813a-14fc5665db75"
       (reference "Q1") (unit 1)

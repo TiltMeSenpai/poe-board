@@ -1,4 +1,4 @@
-update=Fri 26 Jun 2020 12:21:45 PM PDT
+update=Thu 02 Jul 2020 01:19:09 PM PDT
 version=1
 last_client=kicad
 [general]
@@ -15,8 +15,6 @@ LibDir=
 [PcbFrame]
 version=1
 [LibeditFrame]
-version=1
-[SchematicFrame]
 version=1
 [schematic_editor]
 version=1
@@ -41,6 +39,8 @@ ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
 [ModEditFrame]
+version=1
+[SchematicFrame]
 version=1
 [pcbnew]
 version=1
@@ -362,7 +362,7 @@ dPairViaGap=0.25
 [text_variables]
 1=GIT_REV:DIRTY
 [sheetnames]
-1=85adda40-44b8-4bc4-8d18-df125e394f16:
+1=f4a37e97-1a21-4739-8970-d679400fc705:
 2=15a5379a-5304-414f-b1d1-a2406f05f4a7:RJ45
 3=6872f0e8-5ba1-40a3-8fcf-1b3cef156aa3:MII
 4=4552da80-5df1-435b-9eb5-801d356cd933:POE
