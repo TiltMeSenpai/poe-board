@@ -1,4 +1,4 @@
-update=Thu 02 Jul 2020 02:00:50 PM PDT
+update=Fri 03 Jul 2020 12:56:48 PM PDT
 version=1
 last_client=kicad
 [general]
@@ -13,8 +13,6 @@ version=1
 LibDir=
 [eeschema/libraries]
 [PcbFrame]
-version=1
-[LibeditFrame]
 version=1
 [schematic_editor]
 version=1
@@ -359,8 +357,6 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[text_variables]
-1=GIT_REV:DIRTY
 [sheetnames]
 1=f4a37e97-1a21-4739-8970-d679400fc705:
 2=15a5379a-5304-414f-b1d1-a2406f05f4a7:RJ45
@@ -369,3 +365,7 @@ dPairViaGap=0.25
 5=e88c8a4a-9a9f-4489-82f2-72084410741f:MEMORY
 6=1cd55ad1-6412-44cc-9669-b4acc6e6aaec:CONFIG
 7=b01931b2-a9a4-4cf3-bdbe-f04f62a49e22:HUB75
+[LibeditFrame]
+version=1
+[text_variables]
+1=GIT_REV:DIRTY
