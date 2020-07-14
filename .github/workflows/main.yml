@@ -25,7 +25,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Plot Gerbers
-      uses: TiltMeSenpai/kicad-nightly-create-gerbers
+      uses: TiltMeSenpai/kicad-nightly-create-gerbers@dev
       with:
         pcb-file: hub75_poe.kicad_pcb
 

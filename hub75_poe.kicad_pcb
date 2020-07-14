@@ -4807,7 +4807,7 @@
   (gr_text "CERN OHL-W V2" (at 157.226 98.044) (layer "B.SilkS") (tstamp c19f32e5-42ef-47ba-b2a1-b2d7bc3695ff)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "PROJECT LIGHTNING PACKET\n${GIT_REV}\nUNTESTED" (at 157.988 86.868) (layer "B.SilkS") (tstamp 400ff661-4c84-445f-a7d6-4d5472401fca)
+  (gr_text "PROJECT LIGHTNING PACKET\n${GIT_REV}\nPOWER PARTIALLY TESTED" (at 157.988 86.868) (layer "B.SilkS") (tstamp 400ff661-4c84-445f-a7d6-4d5472401fca)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_arc (start 118.11 55.88) (end 118.11 52.07) (angle -90) (layer "Edge.Cuts") (width 0.05) (tstamp 00a85093-d3d4-4243-b909-e60066449ec0))
